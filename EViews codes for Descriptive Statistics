@@ -1,5 +1,3 @@
-' descriptive statstics
-
 matrix(5,7) mout
 For !k=1 to 5
 
