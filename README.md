@@ -1,4 +1,4 @@
-There are several codes on Fractional Frequency Fourer (FFF) methods
+There are several codes on the Fractional Frequency Fourier (FFF) methods
 Name of branch: EViews codes
 
 0 Data set
