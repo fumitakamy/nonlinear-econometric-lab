@@ -1,0 +1,34 @@
+' descriptive statstics
+
+matrix(5,7) mout
+For !k=1 to 5
+
+if !k==1 then
+series y=gi
+endif
+
+if !k==2 then
+series y=cpu
+endif
+
+if !k==3 then
+series y=epu
+endif
+
+if !k==4 then
+series y=gpr
+endif
+
+if !k==5 then
+series y=eui
+endif
+
+mout(!k,1)=@mean(y)
+mout(!k,2)=@median(y)
+mout(!k,3)=@max(y)
+mout(!k,4)=@min(y)
+mout(!k,5)=@stdev(y)
+mout(!k,6)=@skew(y)
+mout(!k,7)=@kurt(y)
+
+next
