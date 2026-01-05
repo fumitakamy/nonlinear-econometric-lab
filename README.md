@@ -1,5 +1,3 @@
-This lab is interactive and collaborative platform for the application of nonlinear econometric methods for real world
-
 There are several codes
 Name of branch: EViews codes
 
