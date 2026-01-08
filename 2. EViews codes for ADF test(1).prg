@@ -1,4 +1,4 @@
-' EViews codes for Fractional Frequency Fourier ADF (FFF-ADF) test
+' EViews codes for ADF test
 
 'output matrix (mout)
 matrix(5,2) mout
